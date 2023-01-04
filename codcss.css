@@ -1,0 +1,60 @@
+body {
+    font-family: 'Prosto One', cursive;
+}
+
+.wrapper {
+    width: auto;
+    margin: auto;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('kernkompetenzen-medizintechnik.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.nav-area {
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    padding-right: 10px;
+    text-align: right;
+
+}
+
+.nav-area li {
+    display: inline-block;
+}
+
+.nav-area li a {
+    color: ghostwhite;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.nav-area li a:hover {
+    background: #fff;
+    color: black;
+}
+
+.logo img {
+    float: left;
+    padding: left 10%;
+    padding-top: 1%;
+    width: 110px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 20px;
+    /* filter: invert(); um das loge-intensität zu ändern*/
+}
+
+.welcome-text {
+    position: absolute;
+    padding: 100px 100px 100px 100px;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    color: cornsilk;
+
+}
